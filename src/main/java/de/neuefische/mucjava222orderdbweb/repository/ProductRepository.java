@@ -20,7 +20,7 @@ public class ProductRepository {
 
     public Product get(String id) {
         for (Product product : products) {
-            if (product.getId().equals(id)) {
+            if (product.id().equals(id)) {
                 return product;
             }
         }

@@ -7,8 +7,8 @@ class ProductTest {
 
     @Test
     void testRecord() {
-        Product product1 = new Product("Banane", "1");
-        Product product2 = new Product("Banane", "1");
+        Product product1 = new Product("Volvo", "88");
+        Product product2 = new Product("Nike", "911");
 
         System.out.println(product1.id());
         System.out.println(product1.name());
